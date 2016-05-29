@@ -1,13 +1,15 @@
 sudo apt-add-repository ppa:numix/ppa
+sudo add-apt-repository ppa:tualatrix/ppa
+sudo add-apt-repository ppa:ubuntu-desktop/ubuntu-make
 sudo apt-get -qq update
 sudo apt-get -qq install golang
 sudo apt-get -qq install zsh
 sudo apt-get -qq install numix-icon-theme numix-icon-theme-circle
 sudo apt-get -qq install autojump
-sudo add-apt-repository ppa:ubuntu-desktop/ubuntu-make
-sudo apt-get update
+sudo apt-get -qq install ubuntu-tweak
 sudo apt-get install ubuntu-make
 umake ide visual-studio-code
+
 
 cd ~
 sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
