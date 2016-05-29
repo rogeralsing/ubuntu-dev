@@ -37,6 +37,7 @@ go get github.com/gogo/protobuf/protoc-gen-gogo
 go get github.com/gogo/protobuf/gogoproto
 go get github.com/gogo/protobuf/protoc-gen-gofast
 go get github.com/rogeralsing/gam
+go get -u github.com/golang/lint/golint
 
 echo "eval \$(go env)" >> ~/.zshrc
 echo "export GOPATH=~" >> ~/.zshrc
