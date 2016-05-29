@@ -1,6 +1,5 @@
 sudo apt-add-repository ppa:numix/ppa
 sudo apt-get -qq update
-sudo apt-get -qq install git
 sudo apt-get -qq install golang
 sudo apt-get -qq install zsh
 sudo apt-get -qq install numix-icon-theme numix-icon-theme-circle
@@ -38,5 +37,5 @@ go get github.com/rogeralsing/gam
 echo "eval \$(go env)" >> ~/.zshrc
 echo "export GOPATH=~" >> ~/.zshrc
 echo ". /usr/share/autojump/autojump.sh" >> ~/.zshrc
-sed 's/robbyrussell/agnoster/g' ~/.zshrc
+sed -i 's/robbyrussell/agnoster/g' ~/.zshrc
 echo "export PATH=\"$PATH:~/proto:~/bin\""  >> ~/.zshrc
