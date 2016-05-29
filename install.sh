@@ -38,4 +38,4 @@ echo "eval \$(go env)" >> ~/.zshrc
 echo "export GOPATH=~" >> ~/.zshrc
 echo ". /usr/share/autojump/autojump.sh" >> ~/.zshrc
 sed -i 's/robbyrussell/agnoster/g' ~/.zshrc
-echo "export PATH=\"$PATH:~/proto:~/bin\""  >> ~/.zshrc
+echo "export PATH=\"$PATH:/home/rogeralsing/proto:/home/rogeralsing/bin\""  >> ~/.zshrc
