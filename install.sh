@@ -49,3 +49,4 @@ echo ". /usr/share/autojump/autojump.sh" >> ~/.zshrc
 sed -i 's/robbyrussell/agnoster/g' ~/.zshrc
 echo "export PATH=\"$PATH:/home/rogeralsing/proto:/home/rogeralsing/bin\""  >> ~/.zshrc
 gsettings set com.canonical.Unity.Launcher launcher-position Bottom
+gsettings set org.gnome.desktop.interface icon-theme "Numix-Circle"
