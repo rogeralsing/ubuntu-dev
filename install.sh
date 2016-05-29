@@ -1,12 +1,13 @@
 sudo apt-add-repository ppa:numix/ppa
 sudo add-apt-repository ppa:tualatrix/ppa
 sudo add-apt-repository ppa:ubuntu-desktop/ubuntu-make
+sudo add-apt-repository ppa:freyja-dev/unity-tweak-tool-daily
 sudo apt-get -qq update
 sudo apt-get -qq install golang
 sudo apt-get -qq install zsh
 sudo apt-get -qq install numix-icon-theme numix-icon-theme-circle
 sudo apt-get -qq install autojump
-sudo apt-get -qq install ubuntu-tweak
+sudo apt-get -qq install unity-tweak-tool
 sudo apt-get install ubuntu-make
 umake ide visual-studio-code
 
