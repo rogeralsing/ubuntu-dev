@@ -3,6 +3,7 @@ sudo add-apt-repository ppa:tualatrix/ppa
 sudo add-apt-repository ppa:ubuntu-desktop/ubuntu-make
 sudo add-apt-repository ppa:freyja-dev/unity-tweak-tool-daily
 sudo apt-get -qq update
+sudo apt-get -qq install mono-complete
 sudo apt-get -qq install golang
 sudo apt-get -qq install zsh
 sudo apt-get -qq install numix-icon-theme numix-icon-theme-circle
