@@ -53,4 +53,4 @@ gsettings set com.canonical.Unity.Launcher launcher-position Bottom
 gsettings set org.gnome.desktop.interface icon-theme "Numix-Circle"
 gsettings set org.gnome.desktop.interface cursor-size 48
 
-sudo apt-get --qq upgrade
+#sudo apt-get --qq upgrade
