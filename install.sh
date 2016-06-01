@@ -3,13 +3,13 @@ sudo add-apt-repository ppa:tualatrix/ppa
 sudo add-apt-repository ppa:ubuntu-desktop/ubuntu-make
 sudo add-apt-repository ppa:freyja-dev/unity-tweak-tool-daily
 sudo apt-get -qq update
-sudo apt-get -qq install mono-complete
-sudo apt-get -qq install golang
-sudo apt-get -qq install zsh
-sudo apt-get -qq install numix-icon-theme numix-icon-theme-circle
-sudo apt-get -qq install autojump
-sudo apt-get -qq install unity-tweak-tool
-sudo apt-get install ubuntu-make
+sudo apt-get -qq install -y mono-complete
+sudo apt-get -qq install -y golang
+sudo apt-get -qq install -y zsh
+sudo apt-get -qq install -y numix-icon-theme numix-icon-theme-circle
+sudo apt-get -qq install -y autojump
+sudo apt-get -qq install -y unity-tweak-tool
+sudo apt-get -qq install -y ubuntu-make
 umake ide visual-studio-code
 
 
@@ -36,11 +36,11 @@ cd fonts
 eval $(go env)
 export GOPATH=~/
 
-go get github.com/gogo/protobuf/proto
-go get github.com/gogo/protobuf/protoc-gen-gogo
-go get github.com/gogo/protobuf/gogoproto
-go get github.com/gogo/protobuf/protoc-gen-gofast
-go get github.com/rogeralsing/gam
+go get -u github.com/gogo/protobuf/proto
+go get -u github.com/gogo/protobuf/protoc-gen-gogo
+go get -u github.com/gogo/protobuf/gogoproto
+go get -u github.com/gogo/protobuf/protoc-gen-gofast
+go get -u github.com/rogeralsing/gam
 go get -u github.com/golang/lint/golint
 go get -u github.com/rogpeppe/godef
 
