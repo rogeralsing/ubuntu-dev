@@ -44,14 +44,13 @@ go get -u github.com/rogeralsing/gam
 go get -u github.com/golang/lint/golint
 go get -u github.com/rogpeppe/godef
 
-echo "eval \$(go env)" >> ~/.zshrc
-echo "export GOPATH=~" >> ~/.zshrc
-echo ". /usr/share/autojump/autojump.sh" >> ~/.zshrc
-sed -i 's/robbyrussell/agnoster/g' ~/.zshrc
-echo "export PATH=\"$PATH:/home/rogeralsing/proto:/home/rogeralsing/bin\""  >> ~/.zshrc
-echo "DEFAULT_USER=`whoami`"  >> ~/.zshrc
+echo "eval \$(go env)"                                                >> ~/.zshrc
+echo "export GOPATH=~"                                                >> ~/.zshrc
+echo ". /usr/share/autojump/autojump.sh"                              >> ~/.zshrc
+sed -i 's/robbyrussell/agnoster/g'                                       ~/.zshrc
+echo "export PATH=\"$PATH:/home/`whoami`/proto:/home/`whoami`/bin\""  >> ~/.zshrc
+echo "DEFAULT_USER=`whoami`"                                          >> ~/.zshrc
+
 gsettings set com.canonical.Unity.Launcher launcher-position Bottom
 gsettings set org.gnome.desktop.interface icon-theme "Numix-Circle"
 gsettings set org.gnome.desktop.interface cursor-size 48
-
-#sudo apt-get --qq upgrade
